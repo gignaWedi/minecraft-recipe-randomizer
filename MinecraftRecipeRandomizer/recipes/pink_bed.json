@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"@@@",
+		"!!!"
+	],
+	"key": {
+		"!": {
+			"tag": "minecraft:planks"
+		},
+		"@": {
+			"item": "minecraft:pink_wool"
+		}
+	},
+	"result": {
+		"item": "minecraft:pink_bed",
+		"count": 1
+	}
+}

@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped","pattern": ["!!!", "!#!", "!@!"], "key":{"!" : {"item": "minecraft:glass"},"@" : {"item": "minecraft:ghast_tear"},"#" : {"item": "minecraft:ender_eye"}}, "result":{"item" : "minecraft:end_crystal", "count":1}}

@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped","pattern": ["!!!", "!@!", "!!!"], "key":{"!" : {"item": "minecraft:terracotta"},"@" : {"item": "minecraft:red_dye"}}, "result":{"item" : "minecraft:red_terracotta", "count":8}}
