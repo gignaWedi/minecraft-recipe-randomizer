@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		[
+			{
+				"item": "minecraft:coal"
+			},
+			{
+				"item": "minecraft:charcoal"
+			}
+		]
+	],
+	"result": {
+		"item": "minecraft:campfire",
+		"count": 1
+	}
+}

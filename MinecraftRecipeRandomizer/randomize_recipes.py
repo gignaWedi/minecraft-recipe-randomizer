@@ -45,13 +45,12 @@ remaining = []
 file_dict = {}
 
 for dirpath, dirnames, filenames in os.walk('recipes'):
-	print(dirpath)
-	if dirpath != "recipes\static_recipes":
+	if dirpath != "recipes\starter_recipes":
 		for filename in filenames:	
 			file_list.append(os.path.join(dirpath, filename))
 			remaining.append(os.path.join(dirpath, filename))
 				
-for dirpath, dirnames, filenames in os.walk(r'recipes\static_recipes'):
+for dirpath, dirnames, filenames in os.walk('recipes\starter_recipes'):
 	for filename in filenames:
 		file = os.path.join(dirpath, filename)
 		file_dict[file] = json.load(open(file, "r"))
@@ -59,22 +58,29 @@ for dirpath, dirnames, filenames in os.walk(r'recipes\static_recipes'):
 
 
 for file in file_list:
-    i = random.randint(0, len(remaining)-1)
+	i = random.randint(0, len(remaining)-1)
     
-    file1 = open(file, "r")
-    file2 = open(remaining[i], "r")
+	file1 = open(file, "r")
+	file2 = open(remaining[i], "r")
     
-    f1 = json.load(file1)
-    f2 = json.load(file2)
+	f1 = json.load(file1)
+	f2 = json.load(file2)
     
-    file1.close()
-    file2.close()
+	file1.close()
+	file2.close()
     
-    f1["result"] = f2["result"]
+	
+	if type(f1["result"]) == type(f2["result"]):
+		f1["result"] = f2["result"]
+	else:
+		try:
+			f1["result"] = f2["result"]["item"]
+		except:
+			f1["result"]["item"] = f2["result"]
     
-    file_dict[file] = f1
+	file_dict[file] = f1
     
-    del remaining[i]
+	del remaining[i]
 
 
 # In[4]:
