@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["!!!", "!#!", "!@!"], "key":{"!" : {"item": "minecraft:cobblestone"},"@" : {"item": "minecraft:redstone"},"#" : {"item": "minecraft:bow"}}, "result":{"item" : "minecraft:dispenser", "count":1}}
+{"key":{"#":{"item":"minecraft:cobblestone"},"R":{"item":"minecraft:redstone"},"X":{"item":"minecraft:bow"}},"pattern":["###","#X#","#R#"],"result":{"item":"minecraft:rabbit_stew"},"type":"minecraft:crafting_shaped"}

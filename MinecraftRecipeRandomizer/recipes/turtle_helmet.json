@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["!!!", "! !"], "key":{"!" : {"item": "minecraft:scute"}}, "result":{"item" : "minecraft:turtle_helmet", "count":1}}
+{"key":{"X":{"item":"minecraft:scute"}},"pattern":["XXX","X X"],"result":{"item":"minecraft:diamond_leggings"},"type":"minecraft:crafting_shaped"}

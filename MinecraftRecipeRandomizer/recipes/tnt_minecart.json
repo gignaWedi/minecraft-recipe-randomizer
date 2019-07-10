@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["@", "!"], "key":{"!" : {"item": "minecraft:minecart"},"@" : {"item": "minecraft:tnt"}}, "result":{"item" : "minecraft:tnt_minecart", "count":1}}
+{"key":{"A":{"item":"minecraft:tnt"},"B":{"item":"minecraft:minecart"}},"pattern":["A","B"],"result":{"item":"minecraft:black_stained_glass_pane"},"type":"minecraft:crafting_shaped"}

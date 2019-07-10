@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": [" @ ", "!!!"], "key":{"!" : {"item": "minecraft:stone"},"@" : {"item": "minecraft:iron_ingot"}}, "result":{"item" : "minecraft:stonecutter", "count":1}}
+{"key":{"#":{"item":"minecraft:stone"},"I":{"item":"minecraft:iron_ingot"}},"pattern":[" I ","###"],"result":{"item":"minecraft:gray_stained_glass_pane"},"type":"minecraft:crafting_shaped"}

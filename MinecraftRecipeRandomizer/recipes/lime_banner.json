@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["@@@", "@@@", " ! "], "key":{"!" : {"item": "minecraft:stick"},"@" : {"item": "minecraft:lime_wool"}}, "result":{"item" : "minecraft:lime_banner", "count":1}}
+{"group":"banner","key":{"#":{"item":"minecraft:lime_wool"},"|":{"item":"minecraft:stick"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:snow_block"},"type":"minecraft:crafting_shaped"}

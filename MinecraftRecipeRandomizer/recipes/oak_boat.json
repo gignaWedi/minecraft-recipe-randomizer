@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["! !", "!!!"], "key":{"!" : {"item": "minecraft:oak_planks"}}, "result":{"item" : "minecraft:oak_boat", "count":1}}
+{"group":"boat","key":{"#":{"item":"minecraft:oak_planks"}},"pattern":["# #","###"],"result":{"item":"minecraft:iron_block"},"type":"minecraft:crafting_shaped"}

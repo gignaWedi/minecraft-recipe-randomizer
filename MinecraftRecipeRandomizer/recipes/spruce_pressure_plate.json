@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["!!"], "key":{"!" : {"item": "minecraft:spruce_planks"}}, "result":{"item" : "minecraft:spruce_pressure_plate", "count":1}}
+{"group":"wooden_pressure_plate","key":{"#":{"item":"minecraft:spruce_planks"}},"pattern":["##"],"result":{"item":"minecraft:gray_glazed_terracotta"},"type":"minecraft:crafting_shaped"}

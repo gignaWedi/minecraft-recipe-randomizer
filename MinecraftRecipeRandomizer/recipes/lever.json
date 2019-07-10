@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["@", "!"], "key":{"!" : {"item": "minecraft:cobblestone"},"@" : {"item": "minecraft:stick"}}, "result":{"item" : "minecraft:lever", "count":1}}
+{"key":{"#":{"item":"minecraft:cobblestone"},"X":{"item":"minecraft:stick"}},"pattern":["X","#"],"result":{"item":"minecraft:diamond_shovel"},"type":"minecraft:crafting_shaped"}

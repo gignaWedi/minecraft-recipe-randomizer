@@ -42,12 +42,21 @@ print('Generating datapack...')
 file_list = []
 remaining = []
 
-for dirpath, dirnames, filenames in os.walk('recipes'):
-    for filename in filenames:
-        file_list.append(os.path.join(dirpath, filename))
-        remaining.append(os.path.join(dirpath, filename))  
-
 file_dict = {}
+
+for dirpath, dirnames, filenames in os.walk('recipes'):
+	print(dirpath)
+	if dirpath != "recipes\static_recipes":
+		for filename in filenames:	
+			file_list.append(os.path.join(dirpath, filename))
+			remaining.append(os.path.join(dirpath, filename))
+				
+for dirpath, dirnames, filenames in os.walk(r'recipes\static_recipes'):
+	for filename in filenames:
+		file = os.path.join(dirpath, filename)
+		file_dict[file] = json.load(open(file, "r"))
+		
+
 
 for file in file_list:
     i = random.randint(0, len(remaining)-1)

@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["!!", "!!"], "key":{"!" : {"item": "minecraft:prismarine_shard"}}, "result":{"item" : "minecraft:prismarine", "count":1}}
+{"key":{"S":{"item":"minecraft:prismarine_shard"}},"pattern":["SS","SS"],"result":{"item":"minecraft:end_stone_bricks"},"type":"minecraft:crafting_shaped"}

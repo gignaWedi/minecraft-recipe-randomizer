@@ -1,16 +1,1 @@
-{
-	"type": "minecraft:crafting_shaped",
-	"pattern": [
-		"!",
-		"!"
-	],
-	"key": {
-		"!": {
-			"item": "minecraft:bamboo"
-		}
-	},
-	"result": {
-		"item": "minecraft:stick",
-		"count": 1
-	}
-}
+{"group":"sticks","key":{"#":{"item":"minecraft:bamboo"}},"pattern":["#","#"],"result":{"item":"minecraft:light_blue_carpet"},"type":"minecraft:crafting_shaped"}

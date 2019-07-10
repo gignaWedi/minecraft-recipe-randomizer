@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["!!"], "key":{"!" : {"item": "minecraft:iron_ingot"}}, "result":{"item" : "minecraft:heavy_weighted_pressure_plate", "count":1}}
+{"key":{"#":{"item":"minecraft:iron_ingot"}},"pattern":["##"],"result":{"item":"minecraft:furnace"},"type":"minecraft:crafting_shaped"}

@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["@@@", "@#@", "!!!"], "key":{"!" : {"item": "minecraft:smooth_stone"},"@" : {"item": "minecraft:iron_ingot"},"#" : {"item": "minecraft:furnace"}}, "result":{"item" : "minecraft:blast_furnace", "count":1}}
+{"key":{"#":{"item":"minecraft:smooth_stone"},"I":{"item":"minecraft:iron_ingot"},"X":{"item":"minecraft:furnace"}},"pattern":["III","IXI","###"],"result":{"item":"minecraft:spruce_stairs"},"type":"minecraft:crafting_shaped"}

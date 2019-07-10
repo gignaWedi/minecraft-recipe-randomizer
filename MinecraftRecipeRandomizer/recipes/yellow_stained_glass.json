@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["!!!", "!@!", "!!!"], "key":{"!" : {"item": "minecraft:glass"},"@" : {"item": "minecraft:yellow_dye"}}, "result":{"item" : "minecraft:yellow_stained_glass", "count":8}}
+{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:yellow_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:cyan_glazed_terracotta"},"type":"minecraft:crafting_shaped"}

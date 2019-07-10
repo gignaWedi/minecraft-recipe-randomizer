@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["!@!", "!@!"], "key":{"!" : {"item": "minecraft:jungle_planks"},"@" : {"item": "minecraft:stick"}}, "result":{"item" : "minecraft:jungle_fence", "count":3}}
+{"group":"wooden_fence","key":{"#":{"item":"minecraft:stick"},"W":{"item":"minecraft:jungle_planks"}},"pattern":["W#W","W#W"],"result":{"count":3,"item":"minecraft:red_sandstone_slab"},"type":"minecraft:crafting_shaped"}

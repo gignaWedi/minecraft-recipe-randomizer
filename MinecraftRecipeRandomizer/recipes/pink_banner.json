@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["@@@", "@@@", " ! "], "key":{"!" : {"item": "minecraft:stick"},"@" : {"item": "minecraft:pink_wool"}}, "result":{"item" : "minecraft:pink_banner", "count":1}}
+{"group":"banner","key":{"#":{"item":"minecraft:pink_wool"},"|":{"item":"minecraft:stick"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:green_wool"},"type":"minecraft:crafting_shaped"}

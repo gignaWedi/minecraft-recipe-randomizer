@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["@@@", "@@@", " ! "], "key":{"!" : {"item": "minecraft:stick"},"@" : {"item": "minecraft:cyan_wool"}}, "result":{"item" : "minecraft:cyan_banner", "count":1}}
+{"group":"banner","key":{"#":{"item":"minecraft:cyan_wool"},"|":{"item":"minecraft:stick"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:granite_slab"},"type":"minecraft:crafting_shaped"}

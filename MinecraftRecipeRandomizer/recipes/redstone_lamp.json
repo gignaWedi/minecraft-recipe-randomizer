@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": [" ! ", "!@!", " ! "], "key":{"!" : {"item": "minecraft:redstone"},"@" : {"item": "minecraft:glowstone"}}, "result":{"item" : "minecraft:redstone_lamp", "count":1}}
+{"key":{"G":{"item":"minecraft:glowstone"},"R":{"item":"minecraft:redstone"}},"pattern":[" R ","RGR"," R "],"result":{"item":"minecraft:white_stained_glass_pane"},"type":"minecraft:crafting_shaped"}

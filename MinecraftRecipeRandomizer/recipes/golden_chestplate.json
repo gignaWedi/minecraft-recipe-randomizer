@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["! !", "!!!", "!!!"], "key":{"!" : {"item": "minecraft:gold_ingot"}}, "result":{"item" : "minecraft:golden_chestplate", "count":1}}
+{"key":{"X":{"item":"minecraft:gold_ingot"}},"pattern":["X X","XXX","XXX"],"result":{"item":"minecraft:rabbit_stew"},"type":"minecraft:crafting_shaped"}

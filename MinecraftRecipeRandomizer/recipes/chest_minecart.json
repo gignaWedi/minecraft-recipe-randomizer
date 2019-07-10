@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["@", "!"], "key":{"!" : {"item": "minecraft:minecart"},"@" : {"item": "minecraft:chest"}}, "result":{"item" : "minecraft:chest_minecart", "count":1}}
+{"key":{"A":{"item":"minecraft:chest"},"B":{"item":"minecraft:minecart"}},"pattern":["A","B"],"result":{"item":"minecraft:oak_wood"},"type":"minecraft:crafting_shaped"}

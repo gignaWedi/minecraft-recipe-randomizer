@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["@@@", "@@@", " ! "], "key":{"!" : {"item": "minecraft:stick"},"@" : {"item": "minecraft:blue_wool"}}, "result":{"item" : "minecraft:blue_banner", "count":1}}
+{"group":"banner","key":{"#":{"item":"minecraft:blue_wool"},"|":{"item":"minecraft:stick"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:end_stone_brick_stairs"},"type":"minecraft:crafting_shaped"}

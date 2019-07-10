@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["@", "!"], "key":{"!" : {"item": "minecraft:torch"},"@" : {"item": "minecraft:carved_pumpkin"}}, "result":{"item" : "minecraft:jack_o_lantern", "count":1}}
+{"key":{"A":{"item":"minecraft:carved_pumpkin"},"B":{"item":"minecraft:torch"}},"pattern":["A","B"],"result":{"item":"minecraft:pink_carpet"},"type":"minecraft:crafting_shaped"}

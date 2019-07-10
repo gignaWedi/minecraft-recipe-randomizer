@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["! !", "!@!", " ! "], "key":{"!" : {"item": "minecraft:iron_ingot"},"@" : {"item": "minecraft:chest"}}, "result":{"item" : "minecraft:hopper", "count":1}}
+{"key":{"C":{"item":"minecraft:chest"},"I":{"item":"minecraft:iron_ingot"}},"pattern":["I I","ICI"," I "],"result":{"item":"minecraft:bone_meal"},"type":"minecraft:crafting_shaped"}

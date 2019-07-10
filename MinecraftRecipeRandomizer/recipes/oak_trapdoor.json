@@ -1,1 +1,1 @@
-{"type": "minecraft:crafting_shaped","pattern": ["!!!", "!!!"], "key":{"!" : {"item": "minecraft:oak_planks"}}, "result":{"item" : "minecraft:oak_trapdoor", "count":2}}
+{"group":"wooden_trapdoor","key":{"#":{"item":"minecraft:oak_planks"}},"pattern":["###","###"],"result":{"count":2,"item":"minecraft:white_terracotta"},"type":"minecraft:crafting_shaped"}
