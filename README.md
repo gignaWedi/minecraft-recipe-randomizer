@@ -22,9 +22,32 @@ the pack will always chose and display a random seed, even if none is given.
 
 (The first ten seeds will be in the examples folder for use as well)
 
+Then just drag the zip file generated into the datapack folder of one of your saves. 
+
 ***
 
-Then just drag the zip file generated into the datapack folder of one of your saves. 
+### Includes:
+
+ - All Vanilla Recipes (randomized):
+   - Crafting Recipes
+   - Furnace Recipes
+   - Smoker Recipes
+   - Blast Furnace Recipes
+   - Campfire Recipes
+   - Stonecutter Recipes
+   
+ - Starter Recipes (constant):
+   
+   Craft up:
+ 
+   - 1 Dirt to get a Crafting Table
+   - 1 Cobblestone to get a Furnace
+   - 1 Granite to get a Smoker
+   - 1 Diorite to get a Blast Furnace
+   - 1 Coal to get a Campfire
+   - 1 Andesite to get a Stonecutter
+
+
 
 
 
