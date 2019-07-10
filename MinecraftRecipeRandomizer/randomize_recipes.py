@@ -10,27 +10,33 @@ import io
 import zipfile
 import json
 import sys
+import argparse
 
 
 # In[2]:
 
+parser = argparse.ArgumentParser(
+	description='Modless Recipe Randomizer for 1.14'
+)
 
-seed = random.randrange(sys.maxsize)
+parser.add_argument("--seed", type=int, default=random.randrange(sys.maxsize), help="sets seed for datapack")
+parser.add_argument("--hard", action = "store_const", const=True, default=False, help="disables starter recipes")
 
-if len(sys.argv) >= 2:
-    try:
-        seed = int(sys.argv[1])
-    except Exception:
-        print('The seed "{}" is not an integer.'.format(sys.argv[1]))
-        exit()
+args = parser.parse_args()
 
-else:
-    print('If you want to use a specific randomizer seed integer, use: "python randomize.py <seed>"')
-    print('Using Seed: {}'.format(seed))
+seed = args.seed
+hard = args.hard
 
 random.seed(seed)
 datapack_name = 'random_recipes_{}'.format(seed)
+
+
 datapack_desc = 'Recipe Randomizer, Seed: {}'.format(seed)
+
+if hard:
+	datapack_name += "_hard"
+	datapack_desc += ", Hard Mode"
+	
 
 datapack_filename = datapack_name + '.zip'
 
@@ -49,14 +55,14 @@ for dirpath, dirnames, filenames in os.walk('recipes'):
 		for filename in filenames:	
 			file_list.append(os.path.join(dirpath, filename))
 			remaining.append(os.path.join(dirpath, filename))
-				
-for dirpath, dirnames, filenames in os.walk('recipes\starter_recipes'):
-	for filename in filenames:
-		file = os.path.join(dirpath, filename)
-		file_dict[file] = json.load(open(file, "r"))
+
+
+if not hard:				
+	for dirpath, dirnames, filenames in os.walk('recipes\starter_recipes'):
+		for filename in filenames:
+			file = os.path.join(dirpath, filename)
+			file_dict[file] = json.load(open(file, "r"))
 		
-
-
 for file in file_list:
 	i = random.randint(0, len(remaining)-1)
     
