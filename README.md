@@ -38,7 +38,13 @@ Based off [this video](https://www.youtube.com/watch?v=3JEXAZOrykQ) by SethBling
   
   OR
   
- - Run using terminal to generate specific seed (syntax: python randomize_recipes.py [seed])
+ - Run using terminal to generate (python randomize_recipes.py)
+   
+   #### args:
+   
+   - --seed SEED: generate specific seed
+   - --hard: generates hard mode pack (no starter recipes)
+ 
 
 It generates similiar to SethBling's MinecraftLootRandomizer, but
 the pack will always chose and display a random seed, even if none is given.
@@ -48,7 +54,6 @@ the pack will always chose and display a random seed, even if none is given.
 Then just drag the zip file generated into the datapack folder of one of your saves. 
 
 Use /reload (cheats required) or manually relog your minecraft world in order to use the datapack.
-
 
 ***
 
